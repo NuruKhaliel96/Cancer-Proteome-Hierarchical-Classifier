@@ -36,3 +36,5 @@ Feature importance analysis identified biologically plausible discriminating pro
 3. Acquire Data: Download mmc2.xlsx and mmc3.xlsx as directed in the data/README.md.
 
 4. Run Analysis: Execute src/analysis_script.py.
+
+For a deep dive into the biological methodology and discussion, see the [Full Research Report](docs/Research_Report_Cancer_Proteome_Classification.pdf).
