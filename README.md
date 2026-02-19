@@ -12,6 +12,10 @@ The primary goal of this study was the hierarchical classification of 949 human 
 Key Technical Features
 
 The project involved processing over 8,000 protein features and applying stringent filtering where tissues with fewer than 50 samples were excluded and proteins quantified in less than 10% of samples were removed. Exploratory Data Analysis was performed using PCA, t-SNE, and UMAP to visualize global-local tissue organization. The hierarchical architecture consisted of Model 1, which distinguished Haematopoietic from Solid cancers, and Model 2, which classified Lung, Breast, Skin, and CNS subtypes within the solid tissue group.
+![PCA and t-SNE Visualization]
+(Figure1_PCA_tSNE.png)
+![UMAP Embedding]
+(Figure3_UMAP.png)
 
 Performance and Results
 
@@ -20,6 +24,9 @@ Model 1 achieved 100.0% accuracy for lineage separation. Model 2 achieved a mean
 Biomarker Insights
 
 Feature importance analysis identified biologically plausible discriminating proteins. TAL1 and CSK were identified as primary markers for immune-derived lineages. SOX10 was highlighted for subtype discrimination, alongside cytoskeletal regulators such as VINC and PLEC for epithelial functional programs. The analysis also revealed a proteomic overlap between Breast and CNS tumours, reflecting shared molecular programs linked to high metastatic tropism.
+
+![Feature Importance Plot]
+(Figure2_FeatureImportance.png)
 
 
 How to Reproduce
