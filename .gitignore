@@ -205,3 +205,13 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Data files (not to be uploaded)
+*.xlsx
+*.csv
+data/mmc2.xlsx
+data/mmc3.xlsx
+
+# Local environment / IDE files
+.DS_Store
+.ipynb_checkpoints/
